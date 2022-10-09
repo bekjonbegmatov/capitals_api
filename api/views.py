@@ -34,7 +34,7 @@ def getRoutes(request):
             'description': 'Returns an array of countries withs capitals , region and some informations'
         },
         {
-            'Endpoint': 'inventory/all?country=neme_of_country',
+            'Endpoint': 'country/all?country=neme_of_country',
             'method': 'GET',
             'body': None,
             'description': 'Returns a Country withs capitals , region and some informations'
